@@ -114,7 +114,7 @@ D:\miniconda3\envs\chem_env\python.exe -m pip install ase numpy pillow matplotli
 ### 方式一：下载便携版（无需 Python）
 
 到 [**Releases**](https://github.com/moyulyy/XDAT-gif/releases/latest) 下载
-`VASP轨迹可视化_便携版_v1.0.0.zip`，解压后双击：
+`VASP-Trajectory-Viewer-v1.0.0-win64.zip`，解压后双击：
 
 ```text
 VASP轨迹可视化\VASP轨迹可视化.exe
@@ -445,7 +445,8 @@ dist\VASP轨迹可视化\
 └─ _internal\                <- 所有依赖 (Qt/WebEngine/numpy/scipy/playwright...)
 ```
 
-`dist\VASP轨迹可视化_便携版_v1.0.0.zip`（约 293 MB）是打包好的压缩包，解压即用。
+打包脚本会生成 `dist\VASP轨迹可视化_便携版.zip`（约 293 MB），解压即用；
+发布到 Release 时资源名使用 `VASP-Trajectory-Viewer-v<版本>-win64.zip`。
 
 ### 为什么是文件夹而不是单文件
 
